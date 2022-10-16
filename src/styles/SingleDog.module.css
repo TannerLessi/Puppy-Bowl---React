@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  background-color: rgb(209, 205, 205);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.singleDog {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 25%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.name {
+  margin-top: 0px;
+}
+
+.breed {
+  margin-top: 0px;
+}
+.dogImg {
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
